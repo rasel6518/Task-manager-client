@@ -74,8 +74,8 @@ const ToDo = ({ reload }) => {
             {!loading && toDoTasks.length === 0 && <p>No To-Do tasks found.</p>}
             {!loading &&
                 toDoTasks.map((task) => (
-                    <div key={task._id} className="">
-                        <h1 className="border text-xl ">{task.title}</h1>
+                    <div key={task._id} className="bg-[#8ce3b3] my-5 mx-5 px-5 pt-5 rounded-md shadow-md">
+                        <h1 className=" text-xl ">{task.title}</h1>
                         <div className="">{task.note} </div>
                         <div className="text-right px-10 py-3 ">
                             <button onClick={() => handleDelete(task._id)}>

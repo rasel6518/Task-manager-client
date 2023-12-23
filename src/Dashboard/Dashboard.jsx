@@ -4,6 +4,7 @@ import { AuthContext } from "../AuthProvider/AuthProvider";
 import { MdOutlineEventNote } from "react-icons/md";
 import { PiArchiveTrayDuotone } from "react-icons/pi";
 import { AiOutlineHome } from "react-icons/ai";
+import Footer from "../Components/Home/Footer";
 
 
 const Dashboard = () => {
@@ -52,7 +53,9 @@ const Dashboard = () => {
             </div>
             <div className="flex-1 my-10">
                 <Outlet></Outlet>
+
             </div>
+
         </div>
     );
 };
