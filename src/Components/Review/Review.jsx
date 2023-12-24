@@ -18,7 +18,7 @@ const Review = () => {
                 <h1 className="text-3xl font-bold ">Task Manager Stories</h1>
                 <p className="text-xl font-sans font-semibold"> Explore the Experiences of Users with Our Task Manager</p>
             </div>
-            <div className="grid grid-cols-3 my-10 gap-5">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 my-10 gap-5">
                 {
                     reviews.map(review =>
                         <div key={review._id} className="block ">
