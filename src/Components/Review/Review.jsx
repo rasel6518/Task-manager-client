@@ -11,7 +11,7 @@ const Review = () => {
                 setReviews(res.data)
             })
     }, [axiosPublic])
-    console.log(reviews);
+    // console.log(reviews);
     return (
         <div className="">
             <div className="">

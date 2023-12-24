@@ -3,7 +3,7 @@
 const Priority = () => {
     return (
         <div>
-            <p>Priority Task</p>
+            <p className="h-screen flex justify-center items-center text-3xl">No Task Priority Available </p>
         </div>
     );
 };

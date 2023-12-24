@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
     return (
         <div>
-            <footer className="flex flex-col space-y-10 justify-center m-10">
+            <footer className="flex flex-col bg-gray-200 space-y-10 justify-center py-5">
 
                 <nav className="flex justify-center flex-wrap gap-6 text-gray-500 font-medium">
                     <Link to='/' className="hover:text-gray-900" href="#">Home</Link>
